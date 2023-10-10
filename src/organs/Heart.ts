@@ -1,4 +1,4 @@
-import { Organ } from "./organ";
+import { Organ } from "./Organ";
 
 class Heart extends Organ {
   private capacity: string;

@@ -20,7 +20,8 @@ export class Body {
     this.torso = torso;
     this.abdomen = abdomen;
     this.leftLeg = leftLeg;
-    this.rightLeg = RightLeg;
+    this.leftArm = leftArm;
+    this.rightLeg = rightLeg;
     this.rightArm = rightArm;
   }
 
@@ -28,7 +29,7 @@ export class Body {
   torso: Torso;
   abdomen: Abdomen;
   leftArm: LeftArm;
-  rightArm: RightArm;
   leftLeg: LeftLeg;
+  rightArm: RightArm;
   rightLeg: RightLeg;
 }
