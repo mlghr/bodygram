@@ -1,7 +1,16 @@
-import { initBody } from "./initBody";
+import { initBody } from "./body-functions/initBody";
+import { Brain } from "./models/organs/Brain";
+import { Heart } from "./models/organs/Heart";
 
-initBody();
-runSystems();
-function runSystems(): string {
-  return "";
+function runBodySystems(): void {
+  const body = initBody();
+  console.log(body);
 }
+
+function generateOrgans() {
+  const heart = new Heart("full");
+  const brain = new Brain();
+}
+
+generateOrgans();
+runBodySystems();
